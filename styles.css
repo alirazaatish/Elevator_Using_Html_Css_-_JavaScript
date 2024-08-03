@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+body {
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #414141;
+  }
+.container-fluid{
+    width: 100vh;
+    height: 100vh;
+    background-color: cornsilk;
+}
+.container{
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+.row{
+    height: 100vh; 
+}
+.floor{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+    border: 2px solid #414141;
+    background-color: rgb(245, 245, 98);
+}
+#elevator{
+    width: 70px;
+    height: 90px;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transition: all 3s;
+    transform: translate(240px, -120px);
+}
+.btn-row{
+    background-color: white;
+}
+.btn-box{
+    border: 2px solid green;
+}
+div button{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 255, 255, 0.6);
+    background-color: #AAACB1;
+    color: white;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+    color: #414141;
+}
+div button:hover{
+    background-color: rgb(103, 238, 103);
+}
+.title-img{
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+    border: 2px solid green;
+    background-image: url(./elevator\ name.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-icon{
+    width: 100%;
+    height: 120px;
+    background-image: url(./icon\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
+}
+.window{
+    width: 50px;
+    height: 40px;
+    border: 1px solid #414141;
+    background-image: url(./window\ img.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.door{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    background-image: url(./door\ img.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
